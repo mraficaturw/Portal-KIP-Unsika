@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portal KIP Unsika</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link rel="icon" href="/assets/img/favicon.ico" />
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.ico" />
+
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+
+        <img src="assets/img/logo.png" alt="logo">
+          <h1 class="sitename">KIP Unsika</h1>
+        <span>.</span>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="index.html#clients">Berita Terkini</a></li>
+          <li><a href="#about">Dokumen</a></li>
+          <li><a href="#services">Layanan</a></li>
+          <li><a href="#faq">Pertanyaan Umum</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2 data-aos="fade-up" data-aos-delay="100">Portal Kartu Indonesia Pintar</h2>
+            <p data-aos="fade-up" data-aos-delay="200">Universitas Singaperbangsa Karawang</p>
+            <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
+              <a href="#about" class="btn-get-started">Login</a>
+              <a href="https://youtu.be/LTGj02B-ib4?si=BwNyHcqk41AYdACM" class="glightbox btn-watch-video d-flex align-items-center">
+                <i class="bi bi-play-circle"></i>
+                <span>Watch Video</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Hero Section -->
+
+    <!-- Blog Section -->
+    <section id="clients" class="clients section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Berita Terbaru</h2>
+          <p>Pemberitahuan dan berita terkini dari KIP Unsika</p>
+        </div>
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "navigation": {
+                "nextEl": ".swiper-button-next",
+                "prevEl": ".swiper-button-prev"
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 20
+                },
+                "480": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 30
+                },
+                "640": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 40
+                },
+                "992": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 50
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide">
+              <a href="blog.html" class="blog-card">
+                <img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt="Blog 1">
+                <h5>Pemberitahuan Terbaru 1</h5>
+                <p>Baca selengkapnya...</p>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="blog.html" class="blog-card">
+                <img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt="Blog 2">
+                <h5>Pemberitahuan Terbaru 2</h5>
+                <p>Baca selengkapnya...</p>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="blog.html" class="blog-card">
+                <img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt="Blog 3">
+                <h5>Pemberitahuan Terbaru 3</h5>
+                <p>Baca selengkapnya...</p>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="blog.html" class="blog-card">
+                <img src="assets/img/blog/blog-4.jpg" class="img-fluid" alt="Blog 4">
+                <h5>Pemberitahuan Terbaru 4</h5>
+                <p>Baca selengkapnya...</p>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="blog.html" class="blog-card">
+                <img src="assets/img/blog/blog-recent-1.jpg" class="img-fluid" alt="Blog 5">
+                <h5>Pemberitahuan Terbaru 5</h5>
+                <p>Baca selengkapnya...</p>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="blog.html" class="blog-card">
+                <img src="assets/img/blog/blog-recent-2.jpg" class="img-fluid" alt="Blog 6">
+                <h5>Pemberitahuan Terbaru 6</h5>
+                <p>Baca selengkapnya...</p>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="blog.html" class="blog-card">
+                <img src="assets/img/blog/blog-recent-3.jpg" class="img-fluid" alt="Blog 7">
+                <h5>Pemberitahuan Terbaru 7</h5>
+                <p>Baca selengkapnya...</p>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="blog.html" class="blog-card">
+                <img src="assets/img/blog/blog-recent-4.jpg" class="img-fluid" alt="Blog 8">
+                <h5>Pemberitahuan Terbaru 8</h5>
+                <p>Baca selengkapnya...</p>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+        <div class="text-center mt-4">
+          <a href="blog.html" class="btn-get-started">Berita Selengkapnya</a>
+        </div>
+      </div>
+    </section><!-- /Blog Section -->
+
+    <!-- Dokumen Section -->
+    <section id="about" class="about section section-bg dark-background">
+      <div class="container position-relative">
+        <div class="row gy-5">
+          <!--Tabs Section -->
+          <section id="tabs" class="tabs section">
+            <!-- Dokumen Title -->
+            <div class="container section-title" data-aos="fade-up">
+              <h2>Dokumen</h2>
+              <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            </div><!-- End Dokumen Title -->
+            <!-- Tab nav Title -->
+            <div class="container">
+              <ul class="nav nav-tabs row d-flex" data-aos="fade-up" data-aos-delay="100">
+                <li class="nav-item col-3">
+                  <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tabs-tab-1">
+                    <i class="bi bi-binoculars"></i>
+                    <h4 class="d-none d-lg-block">Download SK Terbaru</h4>
+                  </a>
+                </li>
+                <li class="nav-item col-3">
+                  <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tabs-tab-2">
+                    <i class="bi bi-box-seam"></i>
+                    <h4 class="d-none d-lg-block">Unde praesenti mara setra le</h4>
+                  </a>
+                </li>
+                <li class="nav-item col-3">
+                  <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tabs-tab-3">
+                    <i class="bi bi-brightness-high"></i>
+                    <h4 class="d-none d-lg-block">Pariatur explica nitro dela</h4>
+                  </a>
+                </li>
+                <li class="nav-item col-3">
+                  <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tabs-tab-4">
+                    <i class="bi bi-command"></i>
+                    <h4 class="d-none d-lg-block">Nostrum qui dile node</h4>
+                  </a>
+                </li>
+              </ul><!-- End Tab Nav -->
+            </div>
+          </section><!-- /Tabs Section -->
+        </div>
+      </div>
+    </section><!-- /Dokumen Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row justify-content-center">
+          <div class="col-lg-7 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-emoji-smile"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Mahasiswa Unsika Penerima KIP</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Stats Section -->
+
+    <!-- Layanan Pengaduan Section -->
+    <section id="services" class="services section section-bg dark-background">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Layanan Keluhan</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item d-flex position-relative h-100">
+              <i class="bi bi-whatsapp icon flex-shrink-0"></i>
+              <div>
+                <h4 class="title">
+                  <a href="https://wa.me/6287773704322/" class="stretched-link" target="_blank">Abitha</a>
+                </h4>
+                <p class="description">Admin Chat yang akan menjawab pertanyaan kamu yang FORMADIKIP</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Layanan Pengaduan Section -->
+
+    <!-- Faq Section -->
+    <section id="faq" class="faq section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Frequently Asked Questions</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+            <div class="faq-container">
+              <div class="faq-item faq-active">
+                <h3>Non consectetur a erat nam at lectus urna duis?</h3>
+                <div class="faq-content">
+                  <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>Feugiat scelerisque varius morbi enim nunc faucibus?</h3>
+                <div class="faq-content">
+                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
+                <div class="faq-content">
+                  <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h3>
+                <div class="faq-content">
+                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>Tempus quam pellentesque nec nam aliquam sem et tortor?</h3>
+                <div class="faq-content">
+                  <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>Perspiciatis quod quo quos nulla quo illum ullam?</h3>
+                <div class="faq-content">
+                  <p>Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed in suscipit sequi. Distinctio ipsam dolore et.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+            </div>
+          </div><!-- End Faq Column-->
+        </div>
+      </div>
+    </section><!-- /Faq Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-6">
+            <div class="row gy-4">
+              <div class="col-lg-12">
+                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Address</h3>
+                  <p>Di Unsika Pokoknya</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Call Us</h3>
+                  <p>+62 5589 55488 55</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>kip@example.com</p>
+                </div>
+              </div><!-- End Info Item -->
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="500">
+              <div class="row gy-4">
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="4" placeholder="Message" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                  <button type="submit">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+        </div>
+      </div>
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container copyright text-center mt-4" >
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Universitas Singaperbangsa Karawang</strong> <span>All Rights Reserved</span></p>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Vendor JS Files -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
